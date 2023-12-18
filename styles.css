@@ -70,7 +70,7 @@ body > span {
     border-bottom: 5px solid rgb(165, 106, 42); /* Adjusted border thickness */
     position: relative;
     background: linear-gradient(#c2b280 20px, transparent 0) no-repeat; /* Adjusted gradient size */
-    background-size: 1px 20px; /* Adjusted background size */
+    background-size: 1px 15px; /* Adjusted background size */
     background-position: 50% 0px;
     animation: spinx 5s linear infinite;
 }
@@ -150,15 +150,15 @@ body > span {
     0%,
     49% {
         transform: rotate(0deg);
-        background-position: 50% 18px; /* Adjusted background position */
+        background-position: 50% 16px;
     }
     51%,
     98% {
         transform: rotate(180deg);
-        background-position: 50% 2px; /* Adjusted background position */
+        background-position: 50% 0px;
     }
     100% {
         transform: rotate(360deg);
-        background-position: 50% 18px; /* Adjusted background position */
+        /* background-position: 50% 15px; */
     }
 }
